@@ -20,12 +20,14 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "expo": "^22.0.2",
     "material-ui": "^0.19.4",
     "react": "^16.0.0-beta.5",
     "react-dom": "^15.6.2",
     "react-facebook-login": "^3.7.0",
     "react-native": "^0.49.5",
+    "react-native-facebook-login": "^1.6.0",
     "react-native-material-design": "^0.3.7",
     "react-native-material-kit": "^0.5.1",
     "react-native-material-ripple": "^0.7.5"

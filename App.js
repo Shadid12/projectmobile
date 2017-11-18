@@ -3,18 +3,27 @@ import { StyleSheet,
         Text,
         View } from 'react-native';
 import Ripple from 'react-native-material-ripple'
-import FacebookLogin from 'react-facebook-login';
+
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-          <Ripple style={styles.a}>
+          <Text>Login With</Text>
+          <Ripple style={styles.a}
+                  onPress={this._logIn()}
+          >
               <Text style={styles.text}>Facebook</Text>
           </Ripple>
       </View>
     );
   }
+
+  _logIn() {
+     console.log('gett it');
+  }
+
+
 }
 
 const styles = StyleSheet.create({
